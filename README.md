@@ -1,10 +1,15 @@
-PROGRAMA DE BOLSA                                                                 <img src="compasso-uol-256.png" width=500px>
-
+PROGRAMA DE BOLSA   
 <span align="center">
-## Resumo da Primeira Sprint
+<img src="compasso-uol-256.png" width=40px>
 </span>
 
-## Olá esse é o resumo do conteúdo da Primeira Sprint<img src=>
+
+## <img src="https://github.com/user-attachments/assets/1cea205a-4ffc-4c5a-b62c-115afe7457f4" width="30px"> Olá, a seguir você encontra o resumo de todo o conteúdo da Primeira Sprint:
+
+<span align="center">
+ <h1> Resumo da Primeira Sprint </h1>
+</span>
+
 
 ## DIA 1
 
