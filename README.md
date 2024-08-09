@@ -29,6 +29,7 @@ Já durante o segundo dia foram apresentados conteúdos sobre a metodologia ági
 
 <div align="center"><img src="https://github.com/user-attachments/assets/1115eedf-2769-4dd1-95aa-acf0e6fc2092" width=600px></div>
 <br>
+
 em que na fase de `Product Backlog` é feito o mapeamento de interesses do cliente, já na `Sprint Backlog` esses interesses e requisitos são reunidos e planejados por priorização, em que o mais importante é realizado primeiro para agregar valor e "encantar" e ao final de cada `Sprint` de um sistema é mostrado o resultado parcial ao cliente a fim de obter `Feedbacks` e gerar `Valor`, sempre ao final de cada Sprint é realizado uma reunião de revisão para ver se realmente o resultado até então vai gerar valor antes de apresentar ao cliente, também uma reunião de retrospectiva para alinhar as ideias e estudar lições aprendidas durante a sprint passada.
 
 ## DIA 3 - Fundamentos do Teste de Software
@@ -60,13 +61,12 @@ também foi ensinado a diferença entre `Erro`, `Defeito` e `Falha` em que o err
 
 Neste dia, aprendemos sobre a Regra 10 de Myers, que prova que quanto mais adiamos os testes mais prejuízos de qualidade e financeiro teremos:
 
-<div align="center"><img src="https://github.com/user-attachments/assets/1115eedf-2769-4dd1-95aa-acf0e6fc2092" width=600px></div>
+<div align="center"><img src="https://github.com/user-attachments/assets/83cde4be-d02f-4a82-947d-d1dc8f144864" width=600px></div>
 <br> 
 Assim também entendemos sobre o Principio de Pareto, a regra 80/20 que diz que 80% dos problemas está relacionado a 20% das causas assim direcionando o foco e priorização para o menor percentual das causas
 
-<br>
 
-<div align="center"><img src="https://github.com/user-attachments/assets/1115eedf-2769-4dd1-95aa-acf0e6fc2092" width=600px></div>
+<div align="center"><br><img src="https://github.com/user-attachments/assets/038acd7d-ff7d-4148-933b-7d2843415e2d" width=600px></div>
 
 
 ## DIA 6 - Fundamentos de Software (Back-End)
@@ -74,8 +74,9 @@ Assim também entendemos sobre o Principio de Pareto, a regra 80/20 que diz que 
 No dia 6 aprendemos sobre os testes back-end e o sistema de pirâmide de teste, que mostra como se deve dar prioridade a testes mais rápidos que podem ser automatizados antes de teste End-Two-End
 que são os testes que analizam todo o cenário do software, assim otimizando tempo e poupando esforços desnecessários em certos casos
 
-<div align="center"><img src="https://github.com/user-attachments/assets/1115eedf-2769-4dd1-95aa-acf0e6fc2092" width=600px></div>
+<div align="center"><img src="https://github.com/user-attachments/assets/7cb6b7d5-0e78-44da-9205-b3f395dd502b" width=600px></div>
 
+<div align="center">Funcionando assim como uma "filtragem" dos teste que são necessários no cenário.</div>
 
 ## DIA 7 - SQL
 
@@ -85,15 +86,19 @@ Durante as atividades do dia 7 foi realizado um curso básico de SQL para a fami
 * `INSERT` (para inserir dados na tabela)
 * `DELETE` (para deletar)
 * `UPADATE` (para atualizar dados)
-* e demais comandos para que pudesse ser realizada a atividade proposta para o dia que consiste em fazer consultas e atulizar dados da tabela apresentada:
+* e demais comandos para que pudesse ser realizada a atividade proposta para o dia que consiste em fazer consultas e atualizar dados da tabela apresentada no `SQLite Online`:
   
 
 ## DIA 8 - NoSQL
 
 Durante as atividades do dia 8 foi realizado um curso básico e rápido sobre a plataforma MongoDB, para uso do Banco de Dados e utilização da mesma em que aprendemos comandos e recursos como:
-* criar o banco de dados
-* inserir dados
-* 
+* `db.nome-da-tabela.insertOne({parâmetros-dos-dados})` (criar o banco de dados, também usado para inserir dados)
+* `db.nome.find({oque-encontrar})` (consulta na tabela onde cada dado se encontra)
+* `db.nome.deleteOne({oque-deletar})`(para deletar algo especificado)
+* `db.nome.updateOne/Many({oque-atualizar})` (para atualizar determinada informação)
+* `db.nome.countDocuments({})`(para contar entradas gerais e específicas da tabela)
+* e demais comandos para que fosse possível a realização da atividade proposta para o dia que consiste em fazer consultas e atualizar dados da tabela apresentada no `MongoDB Online`:
+
 
 ## DIA 9 - CyberSecurity
 
@@ -104,7 +109,7 @@ Em fim, neste último dia tivemos a oportunidade de aprender sobre cuidados com 
 * Usar Autenticação de Multiplos Fatores;
 * Relatar incidentes;
 * Mascarar dados em consultas com IAs Generativas;
-* e demais atitudades apresentadas podem ajudar a evitar golpes, roubo de dados na internet e cuidar da nossa rede doméstica.
+E demais atitudades apresentadas podem ajudar a evitar golpes, roubo de dados na internet e cuidar da nossa rede doméstica.
 Ainda neste dia consumimos conteúdos de Webinars da compassoul para podemos entender como acabamos sendo hackeados e perdendo dados, bem como foi nos apresentado a lista da OWASP TOP 10 que lista e nos ajuda a previnir sobre os 10 vulnerabilidades mais reportadas de tempos em tempos como a quebra do controle de acesso que atualmente é a mais reportada onde um mesmo usuário pode se passar por outra pessoa com mais acessos e modificar e obter iformações que ele mesmo não poderia.
 
 ## DIA 10 - Apresentação do Resumo 
