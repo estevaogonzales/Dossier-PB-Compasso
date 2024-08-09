@@ -1,7 +1,8 @@
 PROGRAMA DE BOLSA                                                                 <img src="compasso-uol-256.png" width=500px>
 
-
+<span align="center">
 # Conteúdo da Primeira Sprint resumida por tópicos
+</span>
 
 ## DIA 1
 
