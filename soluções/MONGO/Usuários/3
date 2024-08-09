@@ -1,0 +1,17 @@
+[
+  {
+    _id: "66b64d82e8faa138eefa913a",
+    nome: "adesivo",
+    categoria: "utilitários",
+    preco: 0,
+    descricao:
+      "desivo com precificação para produtos.",
+  },
+  {
+    _id: "66b64d82e8faa138eefa913b",
+    nome: "caneca",
+    categoria: "utilitários",
+    preco: 0,
+    descricao: "Caneca para café.",
+  },
+];

@@ -1,0 +1,56 @@
+[
+  {
+    _id: "66b64d67d9e0396d62fa03c6",
+    nome: "mouse gamer",
+    categoria: "games",
+    preco: 101,
+    descricao: "Mouse com leds.",
+  },
+  {
+    _id: "66b64d67d9e0396d62fa03c7",
+    nome: "teclado gamer",
+    categoria: "games",
+    preco: 99,
+    descricao: "Teclado com leds.",
+  },
+  {
+    _id: "66b64d67d9e0396d62fa03c8",
+    nome: "monitor gamer",
+    categoria: "games",
+    preco: 1500,
+    descricao:
+      "Monitor grande para jogar.",
+  },
+  {
+    _id: "66b64d67d9e0396d62fa03c9",
+    nome: "jogo batman",
+    categoria: "games",
+    preco: 150,
+    descricao:
+      "Jogo do Batman para PC.",
+  },
+  {
+    _id: "66b64d67d9e0396d62fa03ca",
+    nome: "jogo tomb raider",
+    categoria: "games",
+    preco: 100,
+    descricao:
+      "Jogo Tomb Raider para PC.",
+  },
+  {
+    _id: "66b64d67d9e0396d62fa03cb",
+    nome: "jogo spider-man",
+    categoria: "games",
+    preco: 200,
+    descricao:
+      "Jogo Spider-man para PS4.",
+  },
+  {
+    _id: "66b64d67d9e0396d62fa03cc",
+    nome: "jogo pac-man",
+    categoria: "games",
+    preco: 180,
+    descricao:
+      "Jogo Pac-man para Xbox One.",
+  },
+];

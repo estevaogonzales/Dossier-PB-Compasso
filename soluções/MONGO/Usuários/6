@@ -1,0 +1,34 @@
+[
+  {
+    _id: "66b64dd7d9e0396d62fa03fd",
+    nome: "jogo batman",
+    categoria: "games",
+    preco: 150,
+    descricao:
+      "Jogo do Batman para PC.",
+  },
+  {
+    _id: "66b64dd7d9e0396d62fa03fe",
+    nome: "jogo tomb raider",
+    categoria: "games",
+    preco: 100,
+    descricao:
+      "Jogo Tomb Raider para PC.",
+  },
+  {
+    _id: "66b64dd7d9e0396d62fa03ff",
+    nome: "jogo spider-man",
+    categoria: "games",
+    preco: 200,
+    descricao:
+      "Jogo Spider-man para PS4.",
+  },
+  {
+    _id: "66b64dd7d9e0396d62fa0400",
+    nome: "jogo pac-man",
+    categoria: "games",
+    preco: 180,
+    descricao:
+      "Jogo Pac-man para Xbox One.",
+  },
+];

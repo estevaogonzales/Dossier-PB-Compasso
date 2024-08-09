@@ -1,0 +1,16 @@
+[
+  {
+    _id: "66b64d4be8faa138eefa9124",
+    nome: "caneca chopp",
+    categoria: "utilitários",
+    preco: 25.5,
+    descricao: "",
+  },
+  {
+    _id: "66b64d4be8faa138eefa9125",
+    nome: "copo grande térmico",
+    categoria: "utilitários",
+    preco: 35.9,
+    descricao: "",
+  },
+];
