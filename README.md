@@ -86,7 +86,54 @@ Durante as atividades do dia 7 foi realizado um curso básico de SQL para a fami
 * `INSERT` (para inserir dados na tabela)
 * `DELETE` (para deletar)
 * `UPADATE` (para atualizar dados)
-* e demais comandos para que pudesse ser realizada a atividade proposta para o dia que consiste em fazer consultas e atualizar dados da tabela apresentada no `SQLite Online`:
+* e demais comandos para que pudesse ser realizada a atividade proposta para o dia que consiste em fazer consultas e atualizar dados da tabela apresentada no `SQLite Online`. <br>
+Foi pedido que com base na tabela de `Usuários`, você deve:
+
+1) Realizar uma consulta que conte o número de registros na tabela:
+   * Foi executado o comando: `SELECT COUNT(*) FROM clientes;`
+   * que retornou: `pasta-soluções`
+
+3) Realizar uma consulta para encontrar o usuário com o id 10:
+   * Foi executado o comando: `SELECT * FROM usuarios WHERE id = 10;`
+   * que retornou: `pasta-soluções`
+
+4) Realizar uma consulta para encontrar o usuário com o nome "Bruce Wayne":
+   * Foi executado o comando: `SELECT * FROM usuarios WHERE nome = 'Bruce Wayne';`
+   * que retornou: `pasta-soluções`
+
+5) Realizar uma consulta para encontrar o usuário com o e-mail "ghost_silva@fantasma.com":
+   * Foi executado o comando: `SELECT * FROM usuarios WHERE email = 'ghost_silva@fantasma.com';`
+   * que retornou: `pasta-soluções`
+
+6) Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com":
+   * Foi executado o comando: `DELETE FROM usuarios WHERE email = 'peterparker@marvel.com';`
+   * que retornou: `pasta-soluções`
+
+Foi pedido que com base na tabela de `Produtos`, você deve:
+
+1) Realizar uma consulta que apresente produtos com descrição vazia:
+   * Foi executado o comando: `SELECT * FROM produtos WHERE descricao = '';`
+   * que retornou a solução: `pasta-soluções`
+
+2) Realizar uma consulta que apresente produtos com a categoria "games":
+   * Foi executado o comando: `SELECT * FROM produtos WHERE categoria = 'games';`
+   * que retornou a solução: `pasta-soluções`
+
+3) Realizar uma consulta que apresente produtos com preço "0":
+   * Foi executado o comando: `SELECT * FROM produtos WHERE preco = 0;`
+   * que retornou a solução: `pasta-soluções`
+
+4) Realizar uma consulta que apresente produtos com o preço maior que "100.00":
+   * Foi executado o comando: `SELECT * FROM produtos WHERE preco > 100.00;`
+   * que retornou a solução: `pasta-soluções`
+
+5) Realizar uma consulta que apresente produtos com o preço entre "1000.00" e "2000.00":
+   * Foi executado o comando: `SELECT * FROM produtos WHERE preco BETWEEN 1000.00 AND 2000.00;`
+   * que retornou a solução: `pasta-soluções`
+
+6) Realizar uma consulta que apresente produtos em que o nome contenha a palavra "jogo":
+   * Foi executado o comando: `SELECT * FROM produtos WHERE nome LIKE '%jogo%';`
+   * que retornou a solução: `pasta-soluções`
   
 
 ## DIA 8 - NoSQL
@@ -97,7 +144,57 @@ Durante as atividades do dia 8 foi realizado um curso básico e rápido sobre a 
 * `db.nome.deleteOne({oque-deletar})`(para deletar algo especificado)
 * `db.nome.updateOne/Many({oque-atualizar})` (para atualizar determinada informação)
 * `db.nome.countDocuments({})`(para contar entradas gerais e específicas da tabela)
-* e demais comandos para que fosse possível a realização da atividade proposta para o dia que consiste em fazer consultas e atualizar dados da tabela apresentada no `MongoDB Online`:
+* e demais comandos para que fosse possível a realização da atividade proposta para o dia que consiste em fazer consultas e atualizar dados da tabela apresentada no `MongoDB Online`. <br>
+
+Foi pedido que com base na tabela de `Usuários`, você deve:
+
+1) Realizar uma consulta que conte o número de registros existentes:
+   * Foi executado o comando: `db.collection.countDocuments({});`
+   * que retornou: `pasta-soluções`
+
+2) Realizar uma consulta para alterar o usuário com o nome "Teste Start" para "Teste Finish":
+   * Foi executado o comando: <br>
+     `db.usuarios.updateOne({ nome: "Teste Start" }, // Filtro para encontrar o documento` <br>
+     `{ $set: { nome: "Teste Finish" } } // Atualização a ser aplicada);`
+   * que retornou: `pasta-soluções`
+
+3) Realizar uma consulta para encontrar o usuário com o nome "Bruce Wayne":
+   * Foi executado o comando: `db.usuarios.findOne({ nome: "Bruce Wayne" });`
+   * que retornou: `pasta-soluções`
+
+4) Realizar uma consulta para encontrar o usuário com o e-mail "ghost_silva@fantasma.com":
+   * Foi executado o comando: `db.usuarios.findOne({ email: "ghost_silva@fantasma.com" });`
+   * que retornou: `pasta-soluções`
+
+5) Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com":
+   * Foi executado o comando: `db.usuarios.deleteOne({ email: "peterparker@marvel.com" });`
+   * que retornou: `pasta-soluções`
+
+Foi pedido que com base na tabela de `Produtos`, você deve:
+
+1) Realizar uma consulta que apresente produtos com descrição vazia:
+   * Foi executado o comando: `db.produtos.find({ descricao: "" });`
+   * que retornou a solução: `pasta-soluções`
+
+2) Realizar uma consulta que apresente produtos com a categoria "games":
+   * Foi executado o comando: `db.produtos.find({ categoria: "games" });`
+   * que retornou a solução: `pasta-soluções`
+
+3) Realizar uma consulta que apresente produtos com preço "0":
+   * Foi executado o comando: `db.produtos.find({ preco: 0 });`
+   * que retornou a solução: `pasta-soluções`
+
+4) Realizar uma consulta que apresente produtos com o preço maior que "100.00":
+   * Foi executado o comando: `db.produtos.find({ preco: { $gt: 100.00 } });`
+   * que retornou a solução: `pasta-soluções`
+
+5) Realizar uma consulta que apresente produtos com o preço entre "1000.00" e "2000.00":
+   * Foi executado o comando: `db.produtos.find({ preco: { $gte: 1000.00, $lte: 2000.00 } });`
+   * que retornou a solução: `pasta-soluções`
+
+6) Realizar uma consulta que apresente produtos em que o nome contenha a palavra "jogo":
+   * Foi executado o comando: `db.produtos.find({ nome: /jogo/i });`
+   * que retornou a solução: `pasta-soluções`
 
 
 ## DIA 9 - CyberSecurity
