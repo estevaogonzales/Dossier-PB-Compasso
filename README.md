@@ -206,7 +206,8 @@ Em fim, neste último dia tivemos a oportunidade de aprender sobre cuidados com 
 * Usar Autenticação de Multiplos Fatores;
 * Relatar incidentes;
 * Mascarar dados em consultas com IAs Generativas;
-E demais atitudades apresentadas podem ajudar a evitar golpes, roubo de dados na internet e cuidar da nossa rede doméstica.
+
+E como demais atitudades apresentadas podem ajudar a evitar golpes, roubo de dados na internet e cuidar da nossa rede doméstica. <br>
 Ainda neste dia consumimos conteúdos de Webinars da compassoul para podemos entender como acabamos sendo hackeados e perdendo dados, bem como foi nos apresentado a lista da OWASP TOP 10 que lista e nos ajuda a previnir sobre os 10 vulnerabilidades mais reportadas de tempos em tempos como a quebra do controle de acesso que atualmente é a mais reportada onde um mesmo usuário pode se passar por outra pessoa com mais acessos e modificar e obter iformações que ele mesmo não poderia.
 
 ## DIA 10 - Apresentação do Resumo 
