@@ -150,25 +150,25 @@ Foi pedido que com base na tabela de `Usuários`, você deve:
 
 1) Realizar uma consulta que conte o número de registros existentes:
    * Foi executado o comando: `db.collection.countDocuments({});`
-   * que retornou: `pasta-soluções`
+   * que retornou: <a href="soluções/MONGO/Usuários/1">`RESULTADO`<a>
 
 2) Realizar uma consulta para alterar o usuário com o nome "Teste Start" para "Teste Finish":
    * Foi executado o comando: <br>
      `db.usuarios.updateOne({ nome: "Teste Start" }, // Filtro para encontrar o documento` <br>
      `{ $set: { nome: "Teste Finish" } } // Atualização a ser aplicada);`
-   * que retornou: `pasta-soluções`
+   * que retornou: <a href="soluções/MONGO/Usuários/2">`RESULTADO`<a>
 
 3) Realizar uma consulta para encontrar o usuário com o nome "Bruce Wayne":
    * Foi executado o comando: `db.usuarios.findOne({ nome: "Bruce Wayne" });`
-   * que retornou: `pasta-soluções`
+   * que retornou: <a href="soluções/MONGO/Usuários/3">`RESULTADO`<a>
 
 4) Realizar uma consulta para encontrar o usuário com o e-mail "ghost_silva@fantasma.com":
    * Foi executado o comando: `db.usuarios.findOne({ email: "ghost_silva@fantasma.com" });`
-   * que retornou: `pasta-soluções`
+   * que retornou: <a href="soluções/MONGO/Usuários/4">`RESULTADO`<a>
 
 5) Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com":
    * Foi executado o comando: `db.usuarios.deleteOne({ email: "peterparker@marvel.com" });`
-   * que retornou: `pasta-soluções`
+   * que retornou: <a href="soluções/MONGO/Usuários/5">`RESULTADO`<a>
 
 Foi pedido que com base na tabela de `Produtos`, você deve:
 
