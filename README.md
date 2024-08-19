@@ -91,49 +91,49 @@ Foi pedido que com base na tabela de `Usuários`, você deve:
 
 1) Realizar uma consulta que conte o número de registros na tabela:
    * Foi executado o comando: `SELECT COUNT(*) FROM clientes;`
-   * que retornou: <a href="soluções/SQL/Tabela Usuários/1.json">`pasta-soluções`<a>
+   * que retornou: <a href="soluções/SQL/Tabela Usuários/1.json">`RESULTADO`<a>
 
-3) Realizar uma consulta para encontrar o usuário com o id 10:
+2) Realizar uma consulta para encontrar o usuário com o id 10:
    * Foi executado o comando: `SELECT * FROM usuarios WHERE id = 10;`
-   * que retornou: `pasta-soluções`
+   * que retornou: <a href="soluções/SQL/Tabela Usuários/2.json">`RESULTADO`<a>
 
-4) Realizar uma consulta para encontrar o usuário com o nome "Bruce Wayne":
+3) Realizar uma consulta para encontrar o usuário com o nome "Bruce Wayne":
    * Foi executado o comando: `SELECT * FROM usuarios WHERE nome = 'Bruce Wayne';`
-   * que retornou: `pasta-soluções`
+   * que retornou: <a href="soluções/SQL/Tabela Usuários/3.json">`RESULTADO`<a>
 
-5) Realizar uma consulta para encontrar o usuário com o e-mail "ghost_silva@fantasma.com":
+4) Realizar uma consulta para encontrar o usuário com o e-mail "ghost_silva@fantasma.com":
    * Foi executado o comando: `SELECT * FROM usuarios WHERE email = 'ghost_silva@fantasma.com';`
-   * que retornou: `pasta-soluções`
+   * que retornou: <a href="soluções/SQL/Tabela Usuários/4.json">`RESULTADO`<a>
 
-6) Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com":
+5) Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com":
    * Foi executado o comando: `DELETE FROM usuarios WHERE email = 'peterparker@marvel.com';`
-   * que retornou: `pasta-soluções`
+   * que retornou: <a href="soluções/SQL/Tabela Usuários/5.json">`RESULTADO`<a>
 
 Foi pedido que com base na tabela de `Produtos`, você deve:
 
 1) Realizar uma consulta que apresente produtos com descrição vazia:
    * Foi executado o comando: `SELECT * FROM produtos WHERE descricao = '';`
-   * que retornou a solução: `pasta-soluções`
+   * que retornou a solução: <a href="soluções/SQL/Tabela Produtos/1.json">`RESULTADO`<a>
 
 2) Realizar uma consulta que apresente produtos com a categoria "games":
    * Foi executado o comando: `SELECT * FROM produtos WHERE categoria = 'games';`
-   * que retornou a solução: `pasta-soluções`
+   * que retornou a solução: <a href="soluções/SQL/Tabela Produtos/2.json">`RESULTADO`<a>
 
 3) Realizar uma consulta que apresente produtos com preço "0":
    * Foi executado o comando: `SELECT * FROM produtos WHERE preco = 0;`
-   * que retornou a solução: `pasta-soluções`
+   * que retornou a solução: <a href="soluções/SQL/Tabela Produtos/3.json">`RESULTADO`<a>
 
 4) Realizar uma consulta que apresente produtos com o preço maior que "100.00":
    * Foi executado o comando: `SELECT * FROM produtos WHERE preco > 100.00;`
-   * que retornou a solução: `pasta-soluções`
+   * que retornou a solução: <a href="soluções/SQL/Tabela Produtos/4.json">`RESULTADO`<a>
 
 5) Realizar uma consulta que apresente produtos com o preço entre "1000.00" e "2000.00":
    * Foi executado o comando: `SELECT * FROM produtos WHERE preco BETWEEN 1000.00 AND 2000.00;`
-   * que retornou a solução: `pasta-soluções`
+   * que retornou a solução: <a href="soluções/SQL/Tabela Produtos/5.json">`RESULTADO`<a>
 
 6) Realizar uma consulta que apresente produtos em que o nome contenha a palavra "jogo":
    * Foi executado o comando: `SELECT * FROM produtos WHERE nome LIKE '%jogo%';`
-   * que retornou a solução: `pasta-soluções`
+   * que retornou a solução: <a href="soluções/SQL/Tabela Produtos/6.json">`RESULTADO`<a>
   
 
 ## DIA 8 - NoSQL
