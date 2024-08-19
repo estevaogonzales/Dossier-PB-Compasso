@@ -150,51 +150,51 @@ Foi pedido que com base na tabela de `Usuários`, você deve:
 
 1) Realizar uma consulta que conte o número de registros existentes:
    * Foi executado o comando: `db.collection.countDocuments({});`
-   * que retornou: <a href="soluções/MONGO/Usuários/1">`RESULTADO`<a>
+   * que retornou: <a href="soluções/MONGO/Produtos/1">`RESULTADO`<a>
 
 2) Realizar uma consulta para alterar o usuário com o nome "Teste Start" para "Teste Finish":
    * Foi executado o comando: <br>
      `db.usuarios.updateOne({ nome: "Teste Start" }, // Filtro para encontrar o documento` <br>
      `{ $set: { nome: "Teste Finish" } } // Atualização a ser aplicada);`
-   * que retornou: <a href="soluções/MONGO/Usuários/2">`RESULTADO`<a>
+   * que retornou: <a href="soluções/MONGO/Produtos/2">`RESULTADO`<a>
 
 3) Realizar uma consulta para encontrar o usuário com o nome "Bruce Wayne":
    * Foi executado o comando: `db.usuarios.findOne({ nome: "Bruce Wayne" });`
-   * que retornou: <a href="soluções/MONGO/Usuários/3">`RESULTADO`<a>
+   * que retornou: <a href="soluções/MONGO/Produtos/3">`RESULTADO`<a>
 
 4) Realizar uma consulta para encontrar o usuário com o e-mail "ghost_silva@fantasma.com":
    * Foi executado o comando: `db.usuarios.findOne({ email: "ghost_silva@fantasma.com" });`
-   * que retornou: <a href="soluções/MONGO/Usuários/4">`RESULTADO`<a>
+   * que retornou: <a href="soluções/MONGO/Produtos/4">`RESULTADO`<a>
 
 5) Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com":
    * Foi executado o comando: `db.usuarios.deleteOne({ email: "peterparker@marvel.com" });`
-   * que retornou: <a href="soluções/MONGO/Usuários/5">`RESULTADO`<a>
+   * que retornou: <a href="soluções/MONGO/Produtos/5">`RESULTADO`<a>
 
 Foi pedido que com base na tabela de `Produtos`, você deve:
 
 1) Realizar uma consulta que apresente produtos com descrição vazia:
    * Foi executado o comando: `db.produtos.find({ descricao: "" });`
-   * que retornou a solução: `pasta-soluções`
+   * que retornou a solução: <a href="soluções/MONGO/Usuários/1">`RESULTADO`<a>
 
 2) Realizar uma consulta que apresente produtos com a categoria "games":
    * Foi executado o comando: `db.produtos.find({ categoria: "games" });`
-   * que retornou a solução: `pasta-soluções`
+   * que retornou a solução: <a href="soluções/MONGO/Usuários/2">`RESULTADO`<a>
 
 3) Realizar uma consulta que apresente produtos com preço "0":
    * Foi executado o comando: `db.produtos.find({ preco: 0 });`
-   * que retornou a solução: `pasta-soluções`
+   * que retornou a solução: <a href="soluções/MONGO/Usuários/3">`RESULTADO`<a>
 
 4) Realizar uma consulta que apresente produtos com o preço maior que "100.00":
    * Foi executado o comando: `db.produtos.find({ preco: { $gt: 100.00 } });`
-   * que retornou a solução: `pasta-soluções`
+   * que retornou a solução: <a href="soluções/MONGO/Usuários/4">`RESULTADO`<a>
 
 5) Realizar uma consulta que apresente produtos com o preço entre "1000.00" e "2000.00":
    * Foi executado o comando: `db.produtos.find({ preco: { $gte: 1000.00, $lte: 2000.00 } });`
-   * que retornou a solução: `pasta-soluções`
+   * que retornou a solução: <a href="soluções/MONGO/Usuários/5">`RESULTADO`<a>
 
 6) Realizar uma consulta que apresente produtos em que o nome contenha a palavra "jogo":
    * Foi executado o comando: `db.produtos.find({ nome: /jogo/i });`
-   * que retornou a solução: `pasta-soluções`
+   * que retornou a solução: <a href="soluções/MONGO/Usuários/6">`RESULTADO`<a>
 
 
 ## DIA 9 - CyberSecurity
