@@ -91,7 +91,7 @@ Foi pedido que com base na tabela de `Usuários`, você deve:
 
 1) Realizar uma consulta que conte o número de registros na tabela:
    * Foi executado o comando: `SELECT COUNT(*) FROM clientes;`
-   * que retornou: `pasta-soluções`
+   * que retornou: <a href="soluções/SQL/Tabela Usuários/1.json">`pasta-soluções`<a>
 
 3) Realizar uma consulta para encontrar o usuário com o id 10:
    * Foi executado o comando: `SELECT * FROM usuarios WHERE id = 10;`
